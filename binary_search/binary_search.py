@@ -37,7 +37,7 @@ def binary_search(haystack: List[int], needle: int) -> bool:
         else:
             hi = mid -1
 
-    return -1
+    return False
 
 
 
