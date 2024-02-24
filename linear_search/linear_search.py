@@ -1,4 +1,7 @@
-# Linear search algorithm will search each item in a list in order to find a match.
+"""
+Runtime: O(n)
+Linear search algorithm will search each item in a list in order to find a match.
+"""
 from typing import List
 
 

@@ -1,0 +1,91 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "6HNHW3U_uGCV90m2rndYT",
+      "type": "freedraw",
+      "x": 754,
+      "y": 167,
+      "width": 0.0001,
+      "height": 0.0001,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 114233959,
+      "version": 3,
+      "versionNonce": 1664782953,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1708804088285,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0001,
+          0.0001
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "id": "PYql7uwB2OfWXx7bULUYn",
+      "type": "text",
+      "x": 373,
+      "y": 221,
+      "width": 1015.3436889648438,
+      "height": 585,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 308685641,
+      "version": 329,
+      "versionNonce": 1669122535,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1708804236263,
+      "link": null,
+      "locked": false,
+      "text": "list = [1,2,3.....,n]\n\nLinear search will go item by item in the list till it either\nfinds what it is looking for or doesn't\n\nsudo code\ndef linear_search(haystack, needle)\n    loop over haystack\n        does the value match?\n            return true or the index\n\n    no match found return false or -1\n    ",
+      "fontSize": 36,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 572,
+      "containerId": null,
+      "originalText": "list = [1,2,3.....,n]\n\nLinear search will go item by item in the list till it either\nfinds what it is looking for or doesn't\n\nsudo code\ndef linear_search(haystack, needle)\n    loop over haystack\n        does the value match?\n            return true or the index\n\n    no match found return false or -1\n    ",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
