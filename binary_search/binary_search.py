@@ -30,14 +30,14 @@ def binary_search(haystack: List[int], needle: int) -> bool:
         value = haystack[mid]
         # If the number is found, return the index
         if value == needle:
-            return True
+            return mid
         # if the needle is greater then the value, search the right half
         elif needle > value:
             lo = mid + 1
         else:
             hi = mid
 
-    return False
+    return -1
 
 
 
