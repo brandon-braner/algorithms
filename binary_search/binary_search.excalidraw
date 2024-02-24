@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "iFb6sulONRnaigvNh-I1k",
+      "type": "text",
+      "x": 144,
+      "y": 229,
+      "width": 818.3194580078125,
+      "height": 550,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 768299398,
+      "version": 619,
+      "versionNonce": 347923590,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1708805898319,
+      "link": null,
+      "locked": false,
+      "text": "Psuedo code\n\ndef binary_search(haystack, needle, lo, hi)\n    \n    # loop over this while lo<hi because once they cross\n    # your value is not in the list\n\n    # find the middle of the haystack\n    mid = lo + (hi-lo)/2\n\n    # is mid the value?\n    if mid = needle \n        return true or index\n    \n    if needle > mid\n        lo = mid + 1  # add 1 because we no longer need to consider the mid index\n    else\n        hi = mid\n\n    if lo > hi # this is means our pointers have crossed value is not in array\n        return false or -1\n        ",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 543,
+      "containerId": null,
+      "originalText": "Psuedo code\n\ndef binary_search(haystack, needle, lo, hi)\n    \n    # loop over this while lo<hi because once they cross\n    # your value is not in the list\n\n    # find the middle of the haystack\n    mid = lo + (hi-lo)/2\n\n    # is mid the value?\n    if mid = needle \n        return true or index\n    \n    if needle > mid\n        lo = mid + 1  # add 1 because we no longer need to consider the mid index\n    else\n        hi = mid\n\n    if lo > hi # this is means our pointers have crossed value is not in array\n        return false or -1\n        ",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

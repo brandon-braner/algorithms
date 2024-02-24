@@ -18,4 +18,30 @@ log 4096 = 12
 2 (11)
 1 (12)
 """
+from typing import List
+
+
+def binary_search(haystack: List[int], needle: int) -> int:
+    lo = 0
+    hi = len(haystack) -1
+
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        value = haystack[mid]
+        # If the number is found, return the index
+        if value == needle:
+            return mid
+        # if the needle is greater then the value, search the right half
+        elif needle > value:
+            lo = mid + 1
+        # needed to add this to get passed where we search of 0 in the array and it doesn't exist
+        elif needle != value and hi <= lo:
+            return -1
+        else:
+            hi = mid
+
+    return -1
+
+
+
 
