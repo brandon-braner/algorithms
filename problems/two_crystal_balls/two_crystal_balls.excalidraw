@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "2RssRQFri-rlqi3av-rTy",
+      "type": "text",
+      "x": 304,
+      "y": 200,
+      "width": 1399.1785888671875,
+      "height": 600,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 866182531,
+      "version": 1378,
+      "versionNonce": 586286317,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1708816116395,
+      "link": null,
+      "locked": false,
+      "text": "Problem:\nYou have two crystal balls. There is a certain floor that they will break if you drop them from a building. What is that floor?\n\nSolution:\n\nImagine you are at a building n stories high. We need to find the floor they will break from.\nModel a building with an array floors = [0.......N]\n\nLinear Solution\nThe constraint is we only have 2 balls. We could linearly walk each floor and drop a ball but thats slow, we are lazy we don't want to\nwalk up and down the stairs that many times getting the balls.\nThis approach would be an O(n).\n\nBinary Solution\nWe could divide the array in half, drop it from the middle and then if it breaks, linearly walk up floors until it breaks again from the bottom\nIf it doesn't break we can walk up floors until we find where it breaks. However, this solution is still linear, just on a smaller array \nsince we halved it. Technically it is O(N/2) but drop constants and boom O(n)\n\nHow do we get a smaller number of floors to walk? What if we sqrt(n) and make jumps to floors based on that? We would\nthen find a place it breaks, only have to go down sqrt(n) floors then test the amount of floors between the breaking sqrt(n)\nand the previous sqrt(n) where it didn't break\n\n\n",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 593,
+      "containerId": null,
+      "originalText": "Problem:\nYou have two crystal balls. There is a certain floor that they will break if you drop them from a building. What is that floor?\n\nSolution:\n\nImagine you are at a building n stories high. We need to find the floor they will break from.\nModel a building with an array floors = [0.......N]\n\nLinear Solution\nThe constraint is we only have 2 balls. We could linearly walk each floor and drop a ball but thats slow, we are lazy we don't want to\nwalk up and down the stairs that many times getting the balls.\nThis approach would be an O(n).\n\nBinary Solution\nWe could divide the array in half, drop it from the middle and then if it breaks, linearly walk up floors until it breaks again from the bottom\nIf it doesn't break we can walk up floors until we find where it breaks. However, this solution is still linear, just on a smaller array \nsince we halved it. Technically it is O(N/2) but drop constants and boom O(n)\n\nHow do we get a smaller number of floors to walk? What if we sqrt(n) and make jumps to floors based on that? We would\nthen find a place it breaks, only have to go down sqrt(n) floors then test the amount of floors between the breaking sqrt(n)\nand the previous sqrt(n) where it didn't break\n\n\n",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
