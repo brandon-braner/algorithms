@@ -27,9 +27,6 @@ def binary_search(haystack: List[int], needle: int) -> bool:
 
     while lo <= hi:
         mid = (hi + lo) // 2
-        print(f"mid: {mid}")
-        print(f"lo: {lo}")
-        print(f"hi: {hi}")
         value = haystack[mid]
         # If the number is found, return the index
         if value == needle:
@@ -44,7 +41,4 @@ def binary_search(haystack: List[int], needle: int) -> bool:
 
 
 
-# lo 0 hi 4 mid 2
-[1, 2, 3, 4, 5]
-# lo 3 hi 4 mid 3
-[4, 5]
+
