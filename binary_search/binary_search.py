@@ -23,10 +23,10 @@ from typing import List
 
 def binary_search(haystack: List[int], needle: int) -> bool:
     lo = 0
-    hi = len(haystack) -1
+    hi = len(haystack)
 
-    while lo <= hi:
-        mid = (lo + hi) // 2
+    while lo < hi:
+        mid = lo + (hi - lo) // 2
         value = haystack[mid]
         # If the number is found, return the index
         if value == needle:
@@ -35,7 +35,7 @@ def binary_search(haystack: List[int], needle: int) -> bool:
         elif needle > value:
             lo = mid + 1
         else:
-            hi = mid -1
+            hi = mid
 
     return False
 
